@@ -88,3 +88,8 @@ input_text = open_and_read_file(input_path)
 chains = make_chains(input_text)
 random_text = make_text(chains)
 print(random_text)
+
+# for make_chains:
+# incorporate none object  (checking if keys = none)
+# add none into words
+# if not none: keep going. if none, then stop
